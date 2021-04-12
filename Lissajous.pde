@@ -1,5 +1,5 @@
 float angle = 0;              //The angle the points have along the circle
-float deltaAngle = 0.005;     //The change in the angle after each frame
+float deltaAngle = 0.01;     //The change in the angle after each frame
 int w = 100;                  //Each circle is inside of little square. w is the sidelength of the square
 int cols, rows;               //The number of rows and columns for the circles and curves
 Circles[] circles;            //The array that contains all the circles
